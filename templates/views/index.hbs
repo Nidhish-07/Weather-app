@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Weather</title>
+    
+    <link rel="shortcut icon" href="img/weather.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="main-content">
+    {{>header}}
+
+
+<form action="">
+
+    <fieldset>
+        <legend>
+            Weather Form
+        </legend>
+
+            <input type="text" name="location" id="location">
+            <label for="location"></label>
+
+            <button type="submit">Submit</button>
+    </fieldset>
+</form>
+
+<p id="errorMsg"></p>
+<p id="forecast"></p>
+    </div>
+        
+    {{>footer}}
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
