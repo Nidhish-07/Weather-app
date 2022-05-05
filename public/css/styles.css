@@ -47,7 +47,7 @@ input {
 button {
   padding: 6px;
 
-  background-color: grey;
+  background-color: rgb(168, 166, 166);
   cursor: pointer;
 
   border-radius: 15px;
